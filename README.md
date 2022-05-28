@@ -10,8 +10,7 @@ This source of data will be useful in helping Sparkify reach some of its analyti
 For the schema design, the STAR schema is used as it simplifies queries and provides fast aggregations of data.
 
 
-######## ETL design ##############
-
+# ETL design
 
 For the ETL pipeline, Python is used as it contains libraries such as pandas, that simplifies data manipulation. It also allows connection to Postgres Database.
 
