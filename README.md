@@ -11,6 +11,8 @@ For the schema design, the STAR schema is used as it simplifies queries and prov
 
 
 ######## ETL design ##############
+
+
 For the ETL pipeline, Python is used as it contains libraries such as pandas, that simplifies data manipulation. It also allows connection to Postgres Database.
 
 There are 2 types of data involved, song and log data. For song data, it contains information about songs and artists, which we extract from and load into users and artists dimension table
